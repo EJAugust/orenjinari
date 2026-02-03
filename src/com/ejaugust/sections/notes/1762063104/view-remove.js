@@ -1,1 +1,0 @@
-_.com.ejaugust.detach("populate", note, "listener")

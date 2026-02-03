@@ -1,1 +1,0 @@
-return `Clear the board in only ${minosTrophy.key} moves or less.`

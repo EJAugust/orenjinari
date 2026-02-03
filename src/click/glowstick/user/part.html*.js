@@ -1,1 +1,0 @@
-return `<user- class="${user.direction}"></user->`

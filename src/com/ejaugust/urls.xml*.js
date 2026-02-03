@@ -1,1 +1,0 @@
-return sections["urls.xml"]

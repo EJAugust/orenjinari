@@ -1,1 +1,0 @@
-return note["static.css"] + "\n" + (note["note.css"] ?? "")

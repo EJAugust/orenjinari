@@ -1,1 +1,0 @@
-minosBoard.setRouteID(randomRouteID(minosBoard.cardinality))

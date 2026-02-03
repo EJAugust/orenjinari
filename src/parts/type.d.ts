@@ -5,7 +5,6 @@ declare interface IParts
  readonly abstract: IAbstract
  readonly core: ICore
  readonly desktop: IDesktop
- readonly user: IUser
 }
 
 declare type IPartsApplication =

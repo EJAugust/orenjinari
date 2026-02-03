@@ -1,1 +1,0 @@
-return `Earn at least $${minosCashTrophy.goal.toLocaleString()} in fake game money.`

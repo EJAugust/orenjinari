@@ -28,6 +28,10 @@ declare interface IEcosystem
  readonly "now": DOMHighResTimeStamp
  /** The host of the desired default app. The server will redirect to this when the user visits localhost:3000 to test locally. */
  readonly "defaultApplicationHost": string
+ /** The port at which the ecosystem will be hosted at the domain localhost. This is used both in production (via the reverse proxy) and in local testing. */
+ readonly "port": number
+ /** Whether or not the default desktop menu should show git information and the update button. */
+ readonly "showUpdatesInMenu": boolean
  /** A stylesheet containing CSS variables with `url()` values that correspond to images. Used to seamlessly hand-off image rendering from the server-rendered page to the client-rendered page without modifying the DOM. */
  readonly "images.css": string
  /** The current application's PWA manifest. */

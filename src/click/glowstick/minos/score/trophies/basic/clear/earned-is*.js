@@ -1,1 +1,0 @@
-return !!minosScore.wins.routeID

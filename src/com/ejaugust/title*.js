@@ -1,1 +1,0 @@
-return `${ejaugust.titleMenu}${section?.title ? " - " + section.title : ""}`

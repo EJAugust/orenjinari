@@ -1,1 +1,0 @@
-return region.placeStates[0] + user.w

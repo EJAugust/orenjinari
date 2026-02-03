@@ -1,5 +1,5 @@
 if (!facet.environments)
- throw new Error(`Facet ${facet.title} is missing an environments array (${facet.host}).`)
+ throw new Error(`Facet "${facet.host}" is missing an environments array.`)
 
 const environments = facet.environments.split("\n")
 

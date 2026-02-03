@@ -1,1 +1,0 @@
-return `https://${ejaugust.host}${home.canonicalPathname}`

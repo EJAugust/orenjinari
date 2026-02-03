@@ -1,7 +1,0 @@
-{
- "extends": "match",
- "close": [
-  "POINTER_EVENT",
-  "TARGET_ELEMENT"
- ]
-}

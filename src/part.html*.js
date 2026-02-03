@@ -30,10 +30,6 @@ if (application.classes)
 
 const bodyHTML =
  `<body class="${bodyClassList.join(" ")}">` + (
-  `<warning->` + (
-   `🚧 App in Alpha. Features subject to change/break without notice.`
-  ) +
-  `</warning->` +
   `<wallpaper- class=app-container id=${application.host.replaceAll(".", "_")} tabIndex=0${application.attributes ? ` ${application.attributes}` : ""}${application.style ? ` style="${application.style}"` : ""}>` + (
    application["part.html"]
   ) +

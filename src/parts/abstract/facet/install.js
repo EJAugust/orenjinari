@@ -1,5 +1,5 @@
 
-logScope(1, facet.title, log => {
+logScope(1, facet.host, log => {
  if (facet.supported) {
   if (facet.isAsync) {
    if (environment !== "client")
@@ -8,7 +8,7 @@ logScope(1, facet.title, log => {
     promise: {
      value: GATE.promise
       .then(facetArray => facet.installAsync(facetArray))
-      .then(() => log(`${facet.title}: Async facet installed.`))
+      .then(() => log(`Async facet "${facet.host}" installed.`))
     }
    })
    log(`Enqueued.`)

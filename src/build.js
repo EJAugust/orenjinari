@@ -705,10 +705,11 @@ function ƒ(_) {
 
 ƒ({
  verbosity: 100,
- // TODO: Fix source mapping bugs.
  mapping: false,
  change: "major",
  hangHydration: 0,
  haltHydration: false,
- defaultApplicationHost: "desktop.parts",
+ defaultApplicationHost: "orenjinari.com",
+ port: 3001,
+ showUpdatesInMenu: false
 })

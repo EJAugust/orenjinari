@@ -11,8 +11,6 @@ declare interface IPart<TOwner, TSubpart>
  readonly "constants.js": string
  /** An optional short description of the part. */
  readonly "description"?: string
- /** An decorative title that uses unicode bold and mathematical characters to render the part's host name. */
- readonly "fancyTitle"?: string
  /** The part's index in it's parent domain. */
  readonly "index": number
  /** The path to the part in its instance hierarchy. */

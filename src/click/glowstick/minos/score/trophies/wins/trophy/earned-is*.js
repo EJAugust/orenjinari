@@ -1,1 +1,0 @@
-return Number(minosScore.wins.routeID) >= minosWinsTrophy.goal

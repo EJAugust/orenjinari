@@ -1,1 +1,0 @@
-return sections.enabled ? section.title : "Notes"

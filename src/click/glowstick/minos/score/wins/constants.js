@@ -1,1 +1,0 @@
-const minosWins = this

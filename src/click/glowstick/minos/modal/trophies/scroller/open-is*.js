@@ -1,1 +1,0 @@
-return minosTrophyModal.isOpen && (minosTrophyModal.enabled || minosTrophyModal.dirty && minosTrophyModal.justDisabled)

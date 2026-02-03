@@ -1,1 +1,0 @@
-return minosBomb.arm["part.html"]
