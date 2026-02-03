@@ -260,7 +260,5 @@ const httpServer = require('http').createServer((request, response) => logServer
 ))
 
 httpServer.listen(_.port, () => {
- if (process.send)
-  process.send('ready')
  logScope(0, `Server Ready - http://localhost:${_.port}`)
 })
