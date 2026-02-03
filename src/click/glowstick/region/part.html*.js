@@ -1,0 +1,1 @@
+return `<region- ${region.attributes}></region->`

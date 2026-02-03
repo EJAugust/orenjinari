@@ -1,0 +1,67 @@
+#ejaugust_com #note-subtitle:empty {
+ display: none;
+}
+
+#ejaugust_com #note-credit {
+ color: var(--fg-mode-er);
+ font-weight: 400;
+}
+
+#ejaugust_com #notebook-section :is(h2, h3:not(#note-subtitle), h4, h5, h6) {
+ padding-top: calc(2.5 * var(--spacing));
+}
+
+#ejaugust_com #notebook-section>h2 {
+ padding-top: calc(1.5 * var(--spacing));
+ box-shadow: 0 -1px 0 0 var(--bg-un-mode);
+}
+
+#ejaugust_com #notebook-section>*:has(+ h2) {
+ padding-bottom: calc(1.5 * var(--spacing));
+}
+
+#ejaugust_com #notebook-section :is(ol, ul) {
+ padding-right: calc(3.5 * var(--spacing));
+ padding-left: calc(3.5 * var(--spacing));
+}
+
+#ejaugust_com #notebook-section pre {
+ --edge-color: #ffffff0f !important;
+ --paper-color: var(--light-bg);
+ --text-color: var(--light-accent);
+ box-shadow:
+  1px 1px 2px -1px #0005,
+  0 0 8px 3px #0001,
+  inset 0 0 var(--spacing) var(--spacing) var(--edge-color),
+  calc(var(--spacing) / -4) 0 var(--text-color);
+ color: var(--text-color);
+ border-radius: var(--radius);
+ white-space: pre-wrap;
+ word-break: break-all;
+ font-family: var(--system-ui-mono);
+ line-height: inherit;
+ margin: calc(var(--spacing) / 2 + 2px);
+ padding: calc(var(--spacing) - 2px);
+ padding-left: calc(2 * var(--spacing) - 2px);
+ position: relative;
+ overflow: hidden;
+}
+
+#ejaugust_com #notebook-section pre::before {
+ background: var(--paper-color);
+}
+
+#ejaugust_com #notebook-section pre::after {
+ z-index: 0;
+ filter: invert(1);
+}
+
+body.light #ejaugust_com #notebook-section pre::after {
+ filter: contrast(0.1) sepia(1) hue-rotate(188deg) saturate(10) brightness(0.5);
+}
+
+body.dark #ejaugust_com #notebook-section pre {
+ --edge-color: #ffffff03 !important;
+ --paper-color: var(--light-accent);
+ --text-color: var(--light-bg);
+}

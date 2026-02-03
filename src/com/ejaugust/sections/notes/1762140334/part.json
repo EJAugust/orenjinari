@@ -1,0 +1,7 @@
+{
+ "extends": "note..",
+ "point": [
+  "POINTER_EVENT",
+  "TARGET_ELEMENT"
+ ]
+}

@@ -1,0 +1,11 @@
+# NOTE: Ignored files are skipped by the server's packing process.
+
+## Don't track the build output archive.
+.versions/
+
+## Don't track IDE configuration.
+.vscode/
+
+## Don't track OS-generated files.
+**/Icon
+**/.DS_Store

@@ -1,0 +1,7 @@
+{
+ "abstract": true,
+ "extends": "mix",
+ "date-nice": [
+  "UNIX_TIMESTAMP"
+ ]
+}

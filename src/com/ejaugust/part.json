@@ -1,0 +1,7 @@
+{
+ "extends": "application",
+ "pathname-translate-canonical": [
+  "PATHNAME",
+  "HASH"
+ ]
+}

@@ -1,0 +1,1 @@
+return glowstick.pointAttr()
