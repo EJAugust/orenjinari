@@ -3,7 +3,6 @@ declare interface ICom
 
  // Subparts.
  readonly orenjinari: IOrenjinari
- readonly ejaugust: IEJAugust
 }
 
 declare type IComApplication =

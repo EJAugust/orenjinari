@@ -1,1 +1,0 @@
-return `<tray->${tray.map(item => item["tray.html"]).join("")}</tray->`
