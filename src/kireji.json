@@ -1,5 +1,12 @@
 {
  "port": "3001",
  "defaultApplicationHost": "orenjinari.com",
- "showWarning": "0"
+ "resetLocalState": "disabled",
+ "includeWarning": "disabled",
+ "includeColor": "full",
+ "includeEra": "modern",
+ "includeMenuApps": "none",
+ "includeUpdates": "none",
+ "includeKirejiApp": "none",
+ "includeDesktop": "menu-only"
 }
